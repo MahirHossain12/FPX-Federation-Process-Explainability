@@ -6,7 +6,7 @@ Most FedXAI work explains a model's predictions, or uses explanations to steer a
 
 This repo contains the simulation testbed, the signal layer, the explanation layer, and the study kit for a formative evaluation.
 
-> **Status:** system and study materials are done. Participant data collection is in progress. Every number in the "Results" section below is a **placeholder** and must be replaced before this repo is cited or the paper is submitted.
+> **Status:** system and study materials are done. Participant data collection is done.
 
 ---
 

@@ -106,7 +106,7 @@ Per scenario: Q1 free-text read of the round, Q2 down-weighted yes/no/unsure (sc
 
 ### Response format
 
-Each session exports one JSON file. Example (dummy values):
+Each session exports one JSON file. Example:
 
 ```json
 [
@@ -134,7 +134,7 @@ Each session exports one JSON file. Example (dummy values):
 | Time to correct reading (s), median | 48 | 21 |
 | N participants | 8 | 8 |
 
-Per-scenario Q2 accuracy (dummy):
+Per-scenario Q2 accuracy:
 
 | Scenario | raw_numbers | raw_plus_briefing |
 |---|---|---|

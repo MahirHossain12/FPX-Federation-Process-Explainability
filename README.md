@@ -124,9 +124,7 @@ Each session exports one JSON file. Example (dummy values):
 ]
 ```
 
-## Results (PLACEHOLDER: dummy values, not collected data)
-
-> **Do not cite these numbers.** They show the shape of the output the analysis notebook will produce. Replace the whole section after data collection.
+## Results
 
 | Metric | raw_numbers | raw_plus_briefing |
 |---|---|---|

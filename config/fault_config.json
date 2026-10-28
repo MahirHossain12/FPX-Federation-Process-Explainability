@@ -1,0 +1,5 @@
+{
+  "fault_client": 0,
+  "fault_round": 8,
+  "fault_type": "label_shuffle"
+}

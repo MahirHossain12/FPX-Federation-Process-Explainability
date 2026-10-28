@@ -1,0 +1,45 @@
+
+FPX FORMATIVE EVALUATION - MODERATOR SCRIPT
+=============================================
+Format: Live video call, ~15-20 min, recorded with consent
+Population: ML/CS grad students or researchers (proxy population - stated as a limitation)
+
+INTRO (2 min)
+- Explain: "You're looking at a federated learning system where multiple hospitals
+  train a shared model together. I'll show you snapshots from the training process.
+  Imagine you're the person responsible for making sure this training run is healthy."
+- Read the glossary below ALOUD to every participant, regardless of condition -
+  this keeps the comparison fair (both conditions start from equal understanding
+  of what the system measures; only the communication format differs):
+
+    "Cosine similarity - how similar a site's update is to the group's average
+     update this round. Closer to 1 means very similar; near 0 or negative means
+     quite different.
+     Z-score - how unusual a site's similarity is compared to its peers this
+     round, in standard deviations. Below about -1 is starting to look unusual;
+     below -2 is quite unusual.
+     Effective share - how much a site's update actually counted toward this
+     round's result, after any down-weighting.
+     Excluded - whether the system significantly reduced this site's influence
+     this round due to persistent unusual behavior."
+
+- Remind: think aloud - say what you're noticing and thinking as you go.
+- Get recording consent.
+
+FOR EACH SCENARIO (4 total, ~3-4 min each):
+  Show the material (raw numbers OR briefing, per their assigned condition).
+
+  Q1 [Comprehension - open]: "In your own words, what's happening in this round?"
+  Q2 [Comprehension - check]: "Is any site currently being down-weighted by the system? (Yes/No/Not sure)"
+       -> record correct/incorrect against ground truth (see scenario_materials round data)
+  Q3 [Trust]: "On a scale of 1-7, how much would you trust this round's model?" + "Why?"
+  Q4 [Actionability]: "What, if anything, would you do next?"
+  Q5 [Confidence]: "How confident are you in that decision, 1-7?"
+
+  Moderator notes: approximate time-to-first-correct-understanding (stopwatch,
+  starts when material is shown, stops when they articulate the core fact correctly)
+
+WRAP-UP (3 min)
+- "Overall, which format (numbers or plain-language) was easier to reason with, and why?"
+- "Was there anything you didn't trust or found confusing?"
+- Thank + explain proxy-population/limitation context if they ask why it's not a real hospital scenario.

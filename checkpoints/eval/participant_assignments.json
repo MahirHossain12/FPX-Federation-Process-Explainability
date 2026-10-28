@@ -1,0 +1,98 @@
+[
+  {
+    "participant_id": "P01",
+    "raw_numbers_scenarios": [
+      "S1_quiet_warmup",
+      "S2_early_signal"
+    ],
+    "briefing_scenarios": [
+      "S3_fresh_exclusion",
+      "S4_sustained_exclusion"
+    ],
+    "presentation_order": "raw_first"
+  },
+  {
+    "participant_id": "P02",
+    "raw_numbers_scenarios": [
+      "S3_fresh_exclusion",
+      "S4_sustained_exclusion"
+    ],
+    "briefing_scenarios": [
+      "S1_quiet_warmup",
+      "S2_early_signal"
+    ],
+    "presentation_order": "briefing_first"
+  },
+  {
+    "participant_id": "P03",
+    "raw_numbers_scenarios": [
+      "S1_quiet_warmup",
+      "S3_fresh_exclusion"
+    ],
+    "briefing_scenarios": [
+      "S2_early_signal",
+      "S4_sustained_exclusion"
+    ],
+    "presentation_order": "raw_first"
+  },
+  {
+    "participant_id": "P04",
+    "raw_numbers_scenarios": [
+      "S2_early_signal",
+      "S4_sustained_exclusion"
+    ],
+    "briefing_scenarios": [
+      "S1_quiet_warmup",
+      "S3_fresh_exclusion"
+    ],
+    "presentation_order": "briefing_first"
+  },
+  {
+    "participant_id": "P05",
+    "raw_numbers_scenarios": [
+      "S1_quiet_warmup",
+      "S4_sustained_exclusion"
+    ],
+    "briefing_scenarios": [
+      "S2_early_signal",
+      "S3_fresh_exclusion"
+    ],
+    "presentation_order": "raw_first"
+  },
+  {
+    "participant_id": "P06",
+    "raw_numbers_scenarios": [
+      "S2_early_signal",
+      "S3_fresh_exclusion"
+    ],
+    "briefing_scenarios": [
+      "S1_quiet_warmup",
+      "S4_sustained_exclusion"
+    ],
+    "presentation_order": "briefing_first"
+  },
+  {
+    "participant_id": "P07",
+    "raw_numbers_scenarios": [
+      "S1_quiet_warmup",
+      "S2_early_signal"
+    ],
+    "briefing_scenarios": [
+      "S3_fresh_exclusion",
+      "S4_sustained_exclusion"
+    ],
+    "presentation_order": "raw_first"
+  },
+  {
+    "participant_id": "P08",
+    "raw_numbers_scenarios": [
+      "S3_fresh_exclusion",
+      "S4_sustained_exclusion"
+    ],
+    "briefing_scenarios": [
+      "S1_quiet_warmup",
+      "S2_early_signal"
+    ],
+    "presentation_order": "briefing_first"
+  }
+]

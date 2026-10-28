@@ -1,0 +1,14 @@
+{
+  "participant_id": "",
+  "scenario_id": "",
+  "condition": "",
+  "round": 0,
+  "q1_comprehension_text": "",
+  "q2_comprehension_correct": null,
+  "q3_trust_score": null,
+  "q3_trust_reason": "",
+  "q4_action_text": "",
+  "q5_confidence_score": null,
+  "time_to_understanding_sec": null,
+  "moderator_notes": ""
+}

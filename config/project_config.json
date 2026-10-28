@@ -1,0 +1,11 @@
+{
+  "project_name": "Federation Process Explainability (FPX)",
+  "dataset": "breast_cancer_sklearn",
+  "num_clients": 8,
+  "non_iid_alpha": 0.3,
+  "num_rounds": 20,
+  "model_type": "small_mlp",
+  "created": "2026-09-02 09:54:12.697270",
+  "colab_gpu": "T4",
+  "current_phase": "P5_materials_ready"
+}

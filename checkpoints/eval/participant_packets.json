@@ -1,0 +1,242 @@
+[
+  {
+    "participant_id": "P01",
+    "presentation_order": "raw_first",
+    "items": [
+      {
+        "scenario_id": "S1_quiet_warmup",
+        "condition": "raw_numbers",
+        "round": 3,
+        "content": "Round 3 - Raw Signal Data\n----------------------------------------\nGlobal test accuracy: 0.7368\n\nSite      CosSim   Z-score  EffShare  Excluded\n0          0.340     -0.70     0.035     False\n1          0.544      0.26     0.136     False\n2          0.190     -1.41     0.103     False\n3          0.205     -1.34     0.204     False\n4          0.652      0.77     0.105     False\n5          0.840      1.66     0.132     False\n6          0.594      0.50     0.145     False\n7          0.544      0.26     0.138     False"
+      },
+      {
+        "scenario_id": "S2_early_signal",
+        "condition": "raw_numbers",
+        "round": 8,
+        "content": "Round 8 - Raw Signal Data\n----------------------------------------\nGlobal test accuracy: 0.9298\n\nSite      CosSim   Z-score  EffShare  Excluded\n0          0.213     -1.85     0.035     False\n1          0.552     -0.04     0.136     False\n2          0.457     -0.54     0.103     False\n3          0.475     -0.45     0.204     False\n4          0.695      0.73     0.105     False\n5          0.903      1.84     0.132     False\n6          0.629      0.38     0.145     False\n7          0.546     -0.07     0.138     False"
+      },
+      {
+        "scenario_id": "S3_fresh_exclusion",
+        "condition": "briefing",
+        "round": 9,
+        "content": "--- Round 9 briefing ---\nGlobal test accuracy: 94.7%\nSite 3 contributed the most to this round's model update (21% effective weight), while Site 0 contributed the least (0%).\nSite 0's update looked substantially different from the rest of the federation this round (divergence score -2.15, well outside the normal range).\nSite 0's contribution was significantly down-weighted this round. This site's updates have looked unusual for 1 consecutive round(s) - this may indicate a data quality or labeling issue at this site, and is worth investigating before trusting its future contributions."
+      },
+      {
+        "scenario_id": "S4_sustained_exclusion",
+        "condition": "briefing",
+        "round": 15,
+        "content": "--- Round 15 briefing ---\nGlobal test accuracy: 94.7%\nSite 3 contributed the most to this round's model update (21% effective weight), while Site 0 contributed the least (0%).\nSite 0's update looked substantially different from the rest of the federation this round (divergence score -2.22, well outside the normal range).\nSite 0's contribution was significantly down-weighted this round. This site's updates have looked unusual for 7 consecutive round(s) - this may indicate a data quality or labeling issue at this site, and is worth investigating before trusting its future contributions."
+      }
+    ]
+  },
+  {
+    "participant_id": "P02",
+    "presentation_order": "briefing_first",
+    "items": [
+      {
+        "scenario_id": "S1_quiet_warmup",
+        "condition": "briefing",
+        "round": 3,
+        "content": "--- Round 3 briefing ---\nGlobal test accuracy: 73.7%\nSite 3 contributed the most to this round's model update (20% effective weight), while Site 0 contributed the least (4%).\nFederation still stabilizing (warmup period) - anomaly detection not yet active."
+      },
+      {
+        "scenario_id": "S2_early_signal",
+        "condition": "briefing",
+        "round": 8,
+        "content": "--- Round 8 briefing ---\nGlobal test accuracy: 93.0%\nSite 3 contributed the most to this round's model update (20% effective weight), while Site 0 contributed the least (4%).\nSite 0's update has just started looking unusual compared to the rest of the federation this round (divergence score -1.85). Not yet acted on - the system waits for a consistent pattern before down-weighting a site."
+      },
+      {
+        "scenario_id": "S3_fresh_exclusion",
+        "condition": "raw_numbers",
+        "round": 9,
+        "content": "Round 9 - Raw Signal Data\n----------------------------------------\nGlobal test accuracy: 0.9474\n\nSite      CosSim   Z-score  EffShare  Excluded\n0          0.032     -2.15     0.002      True\n1          0.561      0.06     0.141     False\n2          0.463     -0.35     0.107     False\n3          0.470     -0.31     0.211     False\n4          0.711      0.69     0.109     False\n5          0.926      1.59     0.136     False\n6          0.635      0.37     0.150     False\n7          0.567      0.09     0.143     False"
+      },
+      {
+        "scenario_id": "S4_sustained_exclusion",
+        "condition": "raw_numbers",
+        "round": 15,
+        "content": "Round 15 - Raw Signal Data\n----------------------------------------\nGlobal test accuracy: 0.9474\n\nSite      CosSim   Z-score  EffShare  Excluded\n0          0.020     -2.22     0.002      True\n1          0.374     -0.18     0.141     False\n2          0.396     -0.06     0.107     False\n3          0.365     -0.23     0.211     False\n4          0.502      0.55     0.109     False\n5          0.680      1.57     0.136     False\n6          0.427      0.12     0.150     False\n7          0.485      0.45     0.143     False"
+      }
+    ]
+  },
+  {
+    "participant_id": "P03",
+    "presentation_order": "raw_first",
+    "items": [
+      {
+        "scenario_id": "S1_quiet_warmup",
+        "condition": "raw_numbers",
+        "round": 3,
+        "content": "Round 3 - Raw Signal Data\n----------------------------------------\nGlobal test accuracy: 0.7368\n\nSite      CosSim   Z-score  EffShare  Excluded\n0          0.340     -0.70     0.035     False\n1          0.544      0.26     0.136     False\n2          0.190     -1.41     0.103     False\n3          0.205     -1.34     0.204     False\n4          0.652      0.77     0.105     False\n5          0.840      1.66     0.132     False\n6          0.594      0.50     0.145     False\n7          0.544      0.26     0.138     False"
+      },
+      {
+        "scenario_id": "S3_fresh_exclusion",
+        "condition": "raw_numbers",
+        "round": 9,
+        "content": "Round 9 - Raw Signal Data\n----------------------------------------\nGlobal test accuracy: 0.9474\n\nSite      CosSim   Z-score  EffShare  Excluded\n0          0.032     -2.15     0.002      True\n1          0.561      0.06     0.141     False\n2          0.463     -0.35     0.107     False\n3          0.470     -0.31     0.211     False\n4          0.711      0.69     0.109     False\n5          0.926      1.59     0.136     False\n6          0.635      0.37     0.150     False\n7          0.567      0.09     0.143     False"
+      },
+      {
+        "scenario_id": "S2_early_signal",
+        "condition": "briefing",
+        "round": 8,
+        "content": "--- Round 8 briefing ---\nGlobal test accuracy: 93.0%\nSite 3 contributed the most to this round's model update (20% effective weight), while Site 0 contributed the least (4%).\nSite 0's update has just started looking unusual compared to the rest of the federation this round (divergence score -1.85). Not yet acted on - the system waits for a consistent pattern before down-weighting a site."
+      },
+      {
+        "scenario_id": "S4_sustained_exclusion",
+        "condition": "briefing",
+        "round": 15,
+        "content": "--- Round 15 briefing ---\nGlobal test accuracy: 94.7%\nSite 3 contributed the most to this round's model update (21% effective weight), while Site 0 contributed the least (0%).\nSite 0's update looked substantially different from the rest of the federation this round (divergence score -2.22, well outside the normal range).\nSite 0's contribution was significantly down-weighted this round. This site's updates have looked unusual for 7 consecutive round(s) - this may indicate a data quality or labeling issue at this site, and is worth investigating before trusting its future contributions."
+      }
+    ]
+  },
+  {
+    "participant_id": "P04",
+    "presentation_order": "briefing_first",
+    "items": [
+      {
+        "scenario_id": "S1_quiet_warmup",
+        "condition": "briefing",
+        "round": 3,
+        "content": "--- Round 3 briefing ---\nGlobal test accuracy: 73.7%\nSite 3 contributed the most to this round's model update (20% effective weight), while Site 0 contributed the least (4%).\nFederation still stabilizing (warmup period) - anomaly detection not yet active."
+      },
+      {
+        "scenario_id": "S3_fresh_exclusion",
+        "condition": "briefing",
+        "round": 9,
+        "content": "--- Round 9 briefing ---\nGlobal test accuracy: 94.7%\nSite 3 contributed the most to this round's model update (21% effective weight), while Site 0 contributed the least (0%).\nSite 0's update looked substantially different from the rest of the federation this round (divergence score -2.15, well outside the normal range).\nSite 0's contribution was significantly down-weighted this round. This site's updates have looked unusual for 1 consecutive round(s) - this may indicate a data quality or labeling issue at this site, and is worth investigating before trusting its future contributions."
+      },
+      {
+        "scenario_id": "S2_early_signal",
+        "condition": "raw_numbers",
+        "round": 8,
+        "content": "Round 8 - Raw Signal Data\n----------------------------------------\nGlobal test accuracy: 0.9298\n\nSite      CosSim   Z-score  EffShare  Excluded\n0          0.213     -1.85     0.035     False\n1          0.552     -0.04     0.136     False\n2          0.457     -0.54     0.103     False\n3          0.475     -0.45     0.204     False\n4          0.695      0.73     0.105     False\n5          0.903      1.84     0.132     False\n6          0.629      0.38     0.145     False\n7          0.546     -0.07     0.138     False"
+      },
+      {
+        "scenario_id": "S4_sustained_exclusion",
+        "condition": "raw_numbers",
+        "round": 15,
+        "content": "Round 15 - Raw Signal Data\n----------------------------------------\nGlobal test accuracy: 0.9474\n\nSite      CosSim   Z-score  EffShare  Excluded\n0          0.020     -2.22     0.002      True\n1          0.374     -0.18     0.141     False\n2          0.396     -0.06     0.107     False\n3          0.365     -0.23     0.211     False\n4          0.502      0.55     0.109     False\n5          0.680      1.57     0.136     False\n6          0.427      0.12     0.150     False\n7          0.485      0.45     0.143     False"
+      }
+    ]
+  },
+  {
+    "participant_id": "P05",
+    "presentation_order": "raw_first",
+    "items": [
+      {
+        "scenario_id": "S1_quiet_warmup",
+        "condition": "raw_numbers",
+        "round": 3,
+        "content": "Round 3 - Raw Signal Data\n----------------------------------------\nGlobal test accuracy: 0.7368\n\nSite      CosSim   Z-score  EffShare  Excluded\n0          0.340     -0.70     0.035     False\n1          0.544      0.26     0.136     False\n2          0.190     -1.41     0.103     False\n3          0.205     -1.34     0.204     False\n4          0.652      0.77     0.105     False\n5          0.840      1.66     0.132     False\n6          0.594      0.50     0.145     False\n7          0.544      0.26     0.138     False"
+      },
+      {
+        "scenario_id": "S4_sustained_exclusion",
+        "condition": "raw_numbers",
+        "round": 15,
+        "content": "Round 15 - Raw Signal Data\n----------------------------------------\nGlobal test accuracy: 0.9474\n\nSite      CosSim   Z-score  EffShare  Excluded\n0          0.020     -2.22     0.002      True\n1          0.374     -0.18     0.141     False\n2          0.396     -0.06     0.107     False\n3          0.365     -0.23     0.211     False\n4          0.502      0.55     0.109     False\n5          0.680      1.57     0.136     False\n6          0.427      0.12     0.150     False\n7          0.485      0.45     0.143     False"
+      },
+      {
+        "scenario_id": "S2_early_signal",
+        "condition": "briefing",
+        "round": 8,
+        "content": "--- Round 8 briefing ---\nGlobal test accuracy: 93.0%\nSite 3 contributed the most to this round's model update (20% effective weight), while Site 0 contributed the least (4%).\nSite 0's update has just started looking unusual compared to the rest of the federation this round (divergence score -1.85). Not yet acted on - the system waits for a consistent pattern before down-weighting a site."
+      },
+      {
+        "scenario_id": "S3_fresh_exclusion",
+        "condition": "briefing",
+        "round": 9,
+        "content": "--- Round 9 briefing ---\nGlobal test accuracy: 94.7%\nSite 3 contributed the most to this round's model update (21% effective weight), while Site 0 contributed the least (0%).\nSite 0's update looked substantially different from the rest of the federation this round (divergence score -2.15, well outside the normal range).\nSite 0's contribution was significantly down-weighted this round. This site's updates have looked unusual for 1 consecutive round(s) - this may indicate a data quality or labeling issue at this site, and is worth investigating before trusting its future contributions."
+      }
+    ]
+  },
+  {
+    "participant_id": "P06",
+    "presentation_order": "briefing_first",
+    "items": [
+      {
+        "scenario_id": "S1_quiet_warmup",
+        "condition": "briefing",
+        "round": 3,
+        "content": "--- Round 3 briefing ---\nGlobal test accuracy: 73.7%\nSite 3 contributed the most to this round's model update (20% effective weight), while Site 0 contributed the least (4%).\nFederation still stabilizing (warmup period) - anomaly detection not yet active."
+      },
+      {
+        "scenario_id": "S4_sustained_exclusion",
+        "condition": "briefing",
+        "round": 15,
+        "content": "--- Round 15 briefing ---\nGlobal test accuracy: 94.7%\nSite 3 contributed the most to this round's model update (21% effective weight), while Site 0 contributed the least (0%).\nSite 0's update looked substantially different from the rest of the federation this round (divergence score -2.22, well outside the normal range).\nSite 0's contribution was significantly down-weighted this round. This site's updates have looked unusual for 7 consecutive round(s) - this may indicate a data quality or labeling issue at this site, and is worth investigating before trusting its future contributions."
+      },
+      {
+        "scenario_id": "S2_early_signal",
+        "condition": "raw_numbers",
+        "round": 8,
+        "content": "Round 8 - Raw Signal Data\n----------------------------------------\nGlobal test accuracy: 0.9298\n\nSite      CosSim   Z-score  EffShare  Excluded\n0          0.213     -1.85     0.035     False\n1          0.552     -0.04     0.136     False\n2          0.457     -0.54     0.103     False\n3          0.475     -0.45     0.204     False\n4          0.695      0.73     0.105     False\n5          0.903      1.84     0.132     False\n6          0.629      0.38     0.145     False\n7          0.546     -0.07     0.138     False"
+      },
+      {
+        "scenario_id": "S3_fresh_exclusion",
+        "condition": "raw_numbers",
+        "round": 9,
+        "content": "Round 9 - Raw Signal Data\n----------------------------------------\nGlobal test accuracy: 0.9474\n\nSite      CosSim   Z-score  EffShare  Excluded\n0          0.032     -2.15     0.002      True\n1          0.561      0.06     0.141     False\n2          0.463     -0.35     0.107     False\n3          0.470     -0.31     0.211     False\n4          0.711      0.69     0.109     False\n5          0.926      1.59     0.136     False\n6          0.635      0.37     0.150     False\n7          0.567      0.09     0.143     False"
+      }
+    ]
+  },
+  {
+    "participant_id": "P07",
+    "presentation_order": "raw_first",
+    "items": [
+      {
+        "scenario_id": "S1_quiet_warmup",
+        "condition": "raw_numbers",
+        "round": 3,
+        "content": "Round 3 - Raw Signal Data\n----------------------------------------\nGlobal test accuracy: 0.7368\n\nSite      CosSim   Z-score  EffShare  Excluded\n0          0.340     -0.70     0.035     False\n1          0.544      0.26     0.136     False\n2          0.190     -1.41     0.103     False\n3          0.205     -1.34     0.204     False\n4          0.652      0.77     0.105     False\n5          0.840      1.66     0.132     False\n6          0.594      0.50     0.145     False\n7          0.544      0.26     0.138     False"
+      },
+      {
+        "scenario_id": "S2_early_signal",
+        "condition": "raw_numbers",
+        "round": 8,
+        "content": "Round 8 - Raw Signal Data\n----------------------------------------\nGlobal test accuracy: 0.9298\n\nSite      CosSim   Z-score  EffShare  Excluded\n0          0.213     -1.85     0.035     False\n1          0.552     -0.04     0.136     False\n2          0.457     -0.54     0.103     False\n3          0.475     -0.45     0.204     False\n4          0.695      0.73     0.105     False\n5          0.903      1.84     0.132     False\n6          0.629      0.38     0.145     False\n7          0.546     -0.07     0.138     False"
+      },
+      {
+        "scenario_id": "S3_fresh_exclusion",
+        "condition": "briefing",
+        "round": 9,
+        "content": "--- Round 9 briefing ---\nGlobal test accuracy: 94.7%\nSite 3 contributed the most to this round's model update (21% effective weight), while Site 0 contributed the least (0%).\nSite 0's update looked substantially different from the rest of the federation this round (divergence score -2.15, well outside the normal range).\nSite 0's contribution was significantly down-weighted this round. This site's updates have looked unusual for 1 consecutive round(s) - this may indicate a data quality or labeling issue at this site, and is worth investigating before trusting its future contributions."
+      },
+      {
+        "scenario_id": "S4_sustained_exclusion",
+        "condition": "briefing",
+        "round": 15,
+        "content": "--- Round 15 briefing ---\nGlobal test accuracy: 94.7%\nSite 3 contributed the most to this round's model update (21% effective weight), while Site 0 contributed the least (0%).\nSite 0's update looked substantially different from the rest of the federation this round (divergence score -2.22, well outside the normal range).\nSite 0's contribution was significantly down-weighted this round. This site's updates have looked unusual for 7 consecutive round(s) - this may indicate a data quality or labeling issue at this site, and is worth investigating before trusting its future contributions."
+      }
+    ]
+  },
+  {
+    "participant_id": "P08",
+    "presentation_order": "briefing_first",
+    "items": [
+      {
+        "scenario_id": "S1_quiet_warmup",
+        "condition": "briefing",
+        "round": 3,
+        "content": "--- Round 3 briefing ---\nGlobal test accuracy: 73.7%\nSite 3 contributed the most to this round's model update (20% effective weight), while Site 0 contributed the least (4%).\nFederation still stabilizing (warmup period) - anomaly detection not yet active."
+      },
+      {
+        "scenario_id": "S2_early_signal",
+        "condition": "briefing",
+        "round": 8,
+        "content": "--- Round 8 briefing ---\nGlobal test accuracy: 93.0%\nSite 3 contributed the most to this round's model update (20% effective weight), while Site 0 contributed the least (4%).\nSite 0's update has just started looking unusual compared to the rest of the federation this round (divergence score -1.85). Not yet acted on - the system waits for a consistent pattern before down-weighting a site."
+      },
+      {
+        "scenario_id": "S3_fresh_exclusion",
+        "condition": "raw_numbers",
+        "round": 9,
+        "content": "Round 9 - Raw Signal Data\n----------------------------------------\nGlobal test accuracy: 0.9474\n\nSite      CosSim   Z-score  EffShare  Excluded\n0          0.032     -2.15     0.002      True\n1          0.561      0.06     0.141     False\n2          0.463     -0.35     0.107     False\n3          0.470     -0.31     0.211     False\n4          0.711      0.69     0.109     False\n5          0.926      1.59     0.136     False\n6          0.635      0.37     0.150     False\n7          0.567      0.09     0.143     False"
+      },
+      {
+        "scenario_id": "S4_sustained_exclusion",
+        "condition": "raw_numbers",
+        "round": 15,
+        "content": "Round 15 - Raw Signal Data\n----------------------------------------\nGlobal test accuracy: 0.9474\n\nSite      CosSim   Z-score  EffShare  Excluded\n0          0.020     -2.22     0.002      True\n1          0.374     -0.18     0.141     False\n2          0.396     -0.06     0.107     False\n3          0.365     -0.23     0.211     False\n4          0.502      0.55     0.109     False\n5          0.680      1.57     0.136     False\n6          0.427      0.12     0.150     False\n7          0.485      0.45     0.143     False"
+      }
+    ]
+  }
+]

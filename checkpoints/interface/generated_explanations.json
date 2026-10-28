@@ -1,0 +1,111 @@
+[
+  {
+    "round": 1,
+    "briefing_text": "--- Round 1 briefing ---\nGlobal test accuracy: 63.2%\nSite 3 contributed the most to this round's model update (20% effective weight), while Site 0 contributed the least (4%).\nFederation still stabilizing (warmup period) - anomaly detection not yet active.",
+    "is_fault_round": false,
+    "notable_clients": []
+  },
+  {
+    "round": 2,
+    "briefing_text": "--- Round 2 briefing ---\nGlobal test accuracy: 66.7%\nSite 3 contributed the most to this round's model update (20% effective weight), while Site 0 contributed the least (4%).\nFederation still stabilizing (warmup period) - anomaly detection not yet active.",
+    "is_fault_round": false,
+    "notable_clients": []
+  },
+  {
+    "round": 3,
+    "briefing_text": "--- Round 3 briefing ---\nGlobal test accuracy: 73.7%\nSite 3 contributed the most to this round's model update (20% effective weight), while Site 0 contributed the least (4%).\nFederation still stabilizing (warmup period) - anomaly detection not yet active.",
+    "is_fault_round": false,
+    "notable_clients": []
+  },
+  {
+    "round": 4,
+    "briefing_text": "--- Round 4 briefing ---\nGlobal test accuracy: 83.3%\nSite 3 contributed the most to this round's model update (20% effective weight), while Site 0 contributed the least (4%).\nFederation still stabilizing (warmup period) - anomaly detection not yet active.",
+    "is_fault_round": false,
+    "notable_clients": []
+  },
+  {
+    "round": 5,
+    "briefing_text": "--- Round 5 briefing ---\nGlobal test accuracy: 85.1%\nSite 3 contributed the most to this round's model update (20% effective weight), while Site 0 contributed the least (4%).\nFederation still stabilizing (warmup period) - anomaly detection not yet active.",
+    "is_fault_round": false,
+    "notable_clients": []
+  },
+  {
+    "round": 6,
+    "briefing_text": "--- Round 6 briefing ---\nGlobal test accuracy: 88.6%\nSite 3 contributed the most to this round's model update (20% effective weight), while Site 0 contributed the least (4%).\nSite 2's update has just started looking unusual compared to the rest of the federation this round (divergence score -1.12). Not yet acted on - the system waits for a consistent pattern before down-weighting a site.\nSite 3's update has just started looking unusual compared to the rest of the federation this round (divergence score -1.02). Not yet acted on - the system waits for a consistent pattern before down-weighting a site.",
+    "is_fault_round": false,
+    "notable_clients": [
+      2,
+      3
+    ]
+  },
+  {
+    "round": 7,
+    "briefing_text": "--- Round 7 briefing ---\nGlobal test accuracy: 91.2%\nSite 3 contributed the most to this round's model update (20% effective weight), while Site 0 contributed the least (4%).\nNo sites showed unusual update behavior this round.",
+    "is_fault_round": false,
+    "notable_clients": []
+  },
+  {
+    "round": 8,
+    "briefing_text": "--- Round 8 briefing ---\nGlobal test accuracy: 93.0%\nSite 3 contributed the most to this round's model update (20% effective weight), while Site 0 contributed the least (4%).\nSite 0's update has just started looking unusual compared to the rest of the federation this round (divergence score -1.85). Not yet acted on - the system waits for a consistent pattern before down-weighting a site.",
+    "is_fault_round": true,
+    "notable_clients": [
+      0
+    ]
+  },
+  {
+    "round": 9,
+    "briefing_text": "--- Round 9 briefing ---\nGlobal test accuracy: 94.7%\nSite 3 contributed the most to this round's model update (21% effective weight), while Site 0 contributed the least (0%).\nSite 0's update looked substantially different from the rest of the federation this round (divergence score -2.15, well outside the normal range).\nSite 0's contribution was significantly down-weighted this round. This site's updates have looked unusual for 1 consecutive round(s) - this may indicate a data quality or labeling issue at this site, and is worth investigating before trusting its future contributions.",
+    "is_fault_round": true,
+    "notable_clients": [
+      0
+    ]
+  },
+  {
+    "round": 10,
+    "briefing_text": "--- Round 10 briefing ---\nGlobal test accuracy: 95.6%\nSite 3 contributed the most to this round's model update (21% effective weight), while Site 0 contributed the least (0%).\nSite 0's update looked substantially different from the rest of the federation this round (divergence score -2.40, well outside the normal range).\nSite 0's contribution was significantly down-weighted this round. This site's updates have looked unusual for 2 consecutive round(s) - this may indicate a data quality or labeling issue at this site, and is worth investigating before trusting its future contributions.",
+    "is_fault_round": true,
+    "notable_clients": [
+      0
+    ]
+  },
+  {
+    "round": 11,
+    "briefing_text": "--- Round 11 briefing ---\nGlobal test accuracy: 95.6%\nSite 3 contributed the most to this round's model update (21% effective weight), while Site 0 contributed the least (0%).\nSite 0's update looked substantially different from the rest of the federation this round (divergence score -2.49, well outside the normal range).\nSite 0's contribution was significantly down-weighted this round. This site's updates have looked unusual for 3 consecutive round(s) - this may indicate a data quality or labeling issue at this site, and is worth investigating before trusting its future contributions.",
+    "is_fault_round": true,
+    "notable_clients": [
+      0
+    ]
+  },
+  {
+    "round": 12,
+    "briefing_text": "--- Round 12 briefing ---\nGlobal test accuracy: 95.6%\nSite 3 contributed the most to this round's model update (21% effective weight), while Site 0 contributed the least (0%).\nSite 0's update looked substantially different from the rest of the federation this round (divergence score -2.33, well outside the normal range).\nSite 0's contribution was significantly down-weighted this round. This site's updates have looked unusual for 4 consecutive round(s) - this may indicate a data quality or labeling issue at this site, and is worth investigating before trusting its future contributions.",
+    "is_fault_round": true,
+    "notable_clients": [
+      0
+    ]
+  },
+  {
+    "round": 13,
+    "briefing_text": "--- Round 13 briefing ---\nGlobal test accuracy: 95.6%\nSite 3 contributed the most to this round's model update (21% effective weight), while Site 0 contributed the least (0%).\nSite 0's update looked substantially different from the rest of the federation this round (divergence score -2.29, well outside the normal range).\nSite 0's contribution was significantly down-weighted this round. This site's updates have looked unusual for 5 consecutive round(s) - this may indicate a data quality or labeling issue at this site, and is worth investigating before trusting its future contributions.",
+    "is_fault_round": true,
+    "notable_clients": [
+      0
+    ]
+  },
+  {
+    "round": 14,
+    "briefing_text": "--- Round 14 briefing ---\nGlobal test accuracy: 94.7%\nSite 3 contributed the most to this round's model update (21% effective weight), while Site 0 contributed the least (0%).\nSite 0's update looked substantially different from the rest of the federation this round (divergence score -2.26, well outside the normal range).\nSite 0's contribution was significantly down-weighted this round. This site's updates have looked unusual for 6 consecutive round(s) - this may indicate a data quality or labeling issue at this site, and is worth investigating before trusting its future contributions.",
+    "is_fault_round": true,
+    "notable_clients": [
+      0
+    ]
+  },
+  {
+    "round": 15,
+    "briefing_text": "--- Round 15 briefing ---\nGlobal test accuracy: 94.7%\nSite 3 contributed the most to this round's model update (21% effective weight), while Site 0 contributed the least (0%).\nSite 0's update looked substantially different from the rest of the federation this round (divergence score -2.22, well outside the normal range).\nSite 0's contribution was significantly down-weighted this round. This site's updates have looked unusual for 7 consecutive round(s) - this may indicate a data quality or labeling issue at this site, and is worth investigating before trusting its future contributions.",
+    "is_fault_round": true,
+    "notable_clients": [
+      0
+    ]
+  }
+]
